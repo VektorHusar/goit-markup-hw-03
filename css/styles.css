@@ -149,7 +149,6 @@ section{
 .box-team-hero{
     display: flex;
     margin-top: 72px;
-    width: calc((100%-72px)/4);
     gap: 24px;
 }
 .hero{
@@ -209,9 +208,9 @@ section{
 .box-portfolio-tools{
     display: flex;
     margin-top: 72px;
-    width: calc((100%-48px)/3);
-    gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
+    column-gap: 24px;
 }
 .tools-res{
     display: flex;
@@ -222,6 +221,7 @@ section{
     gap: 8px;
     align-self: stretch;
 
+
 }
 .photo-tools{
     display: flex;
@@ -230,6 +230,7 @@ section{
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
+        border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 /* Footer */
 .box-foot{
